@@ -2,8 +2,7 @@ from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboa
 from telegram.ext import Application, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 from telegram.constants import ChatMemberStatus
 
-import os
-TOKEN = os.environ.get("TOKEN")
+TOKEN = "8773388817:AAFGyjYTEoCEor3FCu_KOVWN9TUjHH9yX5o"   # ← 这里填你的Token
 new_users = set()
 
 async def new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
